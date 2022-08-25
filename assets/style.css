@@ -49,7 +49,7 @@ body {
     text-decoration: none;
     margin: 0 7px;
     position: relative;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
 
@@ -99,16 +99,16 @@ body {
 
 
 .maleta {
-    width: 552px;
-    height: 409.99px;
-    margin-top: 120px;
+    width: 800px;
+    height: 600px;
+    margin-top: 150px;
 }
 
 
 .span-mid {
     color: #FF5000;
     font-weight: 600;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
 }
 
 .div-text-mid {
@@ -175,7 +175,7 @@ body {
     height: 200px;
     width: 700px;
     font-size: 40px;
-    font-family: 'Poppins';
+    font-family: 'Montserrat';
 }
 
 .span-mid {
@@ -189,6 +189,8 @@ body {
     opacity: 1;
     animation: pisca .9s infinite;
 }
+
+
 
 
 @keyframes pisca {
@@ -220,19 +222,16 @@ body {
 }
 
 
-.maleta{
-    transform: translatey(0px);
-    animation: float 5s ease-in-out infinite
-}
+
 
 .div-maletinha{
     transform: translatey(0px);
-    animation: float 5s ease-in-out infinite
+    animation: float 7s ease-in-out infinite
 }
 
 .mockup{
     transform: translatey(0px);
-    animation: float 5s ease-in-out infinite
+    animation: float 9s ease-in-out infinite
 }
 
 @keyframes float {
@@ -273,7 +272,7 @@ body {
 
 .div-seta img{
     transform: translatey(0px);
-    animation: float 5s ease-in-out infinite
+    animation: float 1s ease-in-out infinite
 }
 
 
