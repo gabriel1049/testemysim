@@ -15,7 +15,7 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    --title-color: #2d2d2d;
+    --title-color: #2D2D2F;
     --text-color: #BFBFBF;
     --container-color: #212121;
     --container-color-alt: #181616;
@@ -217,7 +217,7 @@ body {
 .span-mid {
     content: '|';
     opacity: 1;
-    animation: pisca 3s infinite;
+    animation: pisca 5s infinite;
 }
 
 .h1-div-low::after{
