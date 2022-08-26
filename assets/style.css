@@ -456,10 +456,7 @@ body {
     margin-right: 800px;
 }
 
-::selection{
-    color: #fff;
-    background: #1cc7d0;
-}
+
 
 .wrapper-sec{
     display: flex;
