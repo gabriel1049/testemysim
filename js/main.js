@@ -45,5 +45,3 @@ const titulo = document.querySelector('.h1-div-low');
         localStorage.setItem('selected-icon', getCurrentIcon())
     })
 
-// BUTTON
-
