@@ -5,21 +5,21 @@
 :root {
 
     /*========== Colors ==========*/
-    --title-color: #ECECEC;
+    --title-color: #2D2D2F;
     --text-color: #ECECEC;
     --text-color-light: #FF5000;
-    --body-color: #1E1E1E;
+    --body-color: #ECECEC;
   
   }
 
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    --title-color: #2D2D2F;
+    --title-color: #ECECEC;
     --text-color: #BFBFBF;
     --container-color: #212121;
     --container-color-alt: #181616;
-    --body-color: #ECECEC;
+    --body-color: #1E1E1E;
   }
   
   /*========== Button Dark/Light ==========*/
@@ -67,7 +67,7 @@ body {
 .ul-header{
     display: flex;
     gap: 30px;
-    margin-left: 450px;
+    margin-left: 380px;
 
 }
 
@@ -219,32 +219,6 @@ body {
     font-family: 'Montserrat';
 }
 
-.span-mid {
-    content: '|';
-    opacity: 1;
-    animation: pisca 5s infinite;
-}
-
-.h1-div-low::after{
-    content: '|';
-    opacity: 1;
-    animation: pisca .9s infinite;
-}
-
-
-
-
-@keyframes pisca {
-    0%, 100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-
-}
 
 .div-maletinha {
     width: 300px;
