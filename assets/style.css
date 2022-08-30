@@ -292,6 +292,12 @@ body {
     margin-top: 90px;
 }
 
+.div-setaer{
+    display: none;
+    justify-content: center;
+    margin-top: 90px;
+}
+
 .div-seta img{
     transform: translatey(0px);
     animation: float 1s ease-in-out infinite
@@ -323,6 +329,7 @@ body {
 .low-div-text{
     flex-direction: column;
     height: 500px;
+    margin-top: 30px;
 }
 
 .h1-div-low {
@@ -352,7 +359,7 @@ body {
     border-radius: 59.808px;
     background: var(--text-color-light);
     border-color: transparent;
-    margin-left: 50px;
+    margin-left: 10px;
     margin-top: 40px;
     margin-top: 100px;
 }
