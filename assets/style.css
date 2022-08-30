@@ -233,7 +233,7 @@ body {
 }
 
 .div-maletinha h2 {
-    color: var(--text-color);
+    color: var(--title-color);
     opacity: 0.7;
     margin-right: 50px;
     font-weight: normal;
@@ -380,7 +380,7 @@ body {
 
 .saiba-button {
     display: flex;
-    color:var(--title-color);
+    color:var(--text-color);
     align-items: center;
     justify-content: center;
 }
